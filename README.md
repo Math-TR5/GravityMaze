@@ -52,7 +52,7 @@ Cette quatrième et dernière pièce de la structure du jeu est constituée d'un
 ### 🔌 Composants électroniques
 Voici la liste des composants électroniques qui ont été nécessaires à la réalisation de ce projet:
 
-**1. Deux servomoteurs :**
+**1. Deux servomoteurs**
 Situés dans le pied du labyrinthe, ils permettent d'incliner le plateau et ainsi faire bouger la bille. L'un permet de contrôler l'inclinaison selon l'axe Ox *(cf. **Figure 1.a**)* et l'autre selon l'axe Oy *(cf. **Figure 1.b**)*
 
 *(schémas de contrôle des inclinaisons des servomoteurs + photo)*
@@ -64,11 +64,12 @@ Situés dans le pied du labyrinthe, ils permettent d'incliner le plateau et ains
 **3- Une carte UCA**
 
 
-**4- Des fils**
+**4- X fils**
 Ils permettent de lier les différents composants électroniques selon le schéma de montage suivant :
 
 *(schéma de montage)*
 
+**5- Deux batteries**
 
 ### 🖥️ Programmation
 
