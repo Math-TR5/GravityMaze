@@ -1,7 +1,7 @@
 # GravityMaze
 
 ## Projet - Communication Sans Fil
-MANUKIEVITCH Krystal, TROUVE Mathilde et PEROLINI Poe-iti
+MANUKIEVITCH Krystal, TROUVÉ Mathilde et PEROLINI Poe-iti
 
 *Université Nice Côté d'Azur*
 
