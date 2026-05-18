@@ -3,11 +3,11 @@
 ## Projet - Communication Sans Fil
 MANUKIEVITCH Krystal, TROUVÉ Mathilde et PEROLINI Poe-iti
 
-*Université Nice Côté d'Azur*
+*Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licence 1 à l’Université
+Nice Sophia Antipolis*
 
-
-## 📘 Présentation du projet
-*GravaityMaze* est un jeu dont l'objectif est de faire parcourir un labyrinthe à une bille en inclinant le plateau du labyrinthe à distance. 
+### 📘 Présentation du projet
+*GravityMaze* est un jeu dont l'objectif est de faire parcourir un labyrinthe à une bille en inclinant le plateau du labyrinthe à distance. 
 
 ### 🧭 Motivation  
 Étudiantes en licence **Sciences et Technologies – Parcours Préparatoire au Professorat des Écoles (PPPE)**, nous avons voulu créer un jeu interactif, nous permettant ainsi d’explorer la communication sans fil tout en rendant l’apprentissage plus accessible, ludique et engageant.
@@ -23,7 +23,7 @@ Afin de donner une direction claire à notre démarche, nous avons défini les o
 *Comment contrôler un système mécanique à distance de manière fiable et sans fil ?*
 
 
-##  🔧 Matériel et fonctions
+###  🔧 Matériel et fonctions
 Pour créer ce jeu, nous avons réalisé plutieurs et utilisé du matériel prêté par l'**Université Nice Côte d'Azur**.
 
 ### ⚙️ Structure
@@ -38,7 +38,7 @@ Voici la liste des pièces que nous avons réalisé pour la structure de notre j
 **3. Le plateau :** il est constituée d'un seule pièce. Nous avons utlisé le logiciel *Fusion360* afin de modéliser en 3D cette pièce, que nous avons par la suite imprimé en 3D.
 
 
-**4. La télécommande :** cette quatrième et dernière pièce de la structure du jeu est constituée d'une seule pièce. Nous avons modélisé et imprimé en 3D les parois et utilisé la découpe laser pour le fond et le couvercle coulissant. La télécommande permet d'abriter l'accéléromètre qui va contrôler l'inclinaison du labyrinthe à distance : elle n'est donc pas reliée aux autres pièces de la structure du jeu.
+**4. La télécommande :** cette quatrième pièce de la structure du jeu est constituée de deux pièces. Nous avons modélisé et imprimé en 3D les parois et utilisé la découpe laser pour le fond et le couvercle coulissant. La télécommande permet d'abriter l'accéléromètre qui va contrôler l'inclinaison du labyrinthe à distance : elle n'est donc pas reliée aux autres pièces de la structure du jeu.
 
 
 ### 🔌 Composants électroniques
@@ -47,7 +47,7 @@ Voici la liste des composants électroniques, prêtés par l'**Université Nice 
 **1. Deux servomoteurs**: situés dans le pied du labyrinthe, ils permettent d'incliner le plateau et ainsi faire bouger la bille. L'un permet de contrôler l'inclinaison selon l'axe Ox et l'autre selon l'axe Oy *(cf. **contrôle_des_axes_servomoteurs.pdf**)*.
 
 
-**2- Un accéléromètre**: composant principal de la télécommande, il va permettre de contrôler le labyrinthe à distance e receuillant des données concernant l'inclinaison des deux axes définis précédemment.
+**2- Un accéléromètre**: composant principal de la télécommande, il va permettre de contrôler le labyrinthe à distance en receuillant des données concernant l'inclinaison des deux axes définis précédemment.
 
 
 **3- Deux cartes UCA**: 
@@ -56,9 +56,9 @@ Voici la liste des composants électroniques, prêtés par l'**Université Nice 
 - la deuxième est située dans le socle. Elle sert de récepteur afin de traduire, pour les servomoteurs, les données reçus concernant l'inclinaison des deux axes 
 
 
-**4- X fils** : ils permettent de lier les différents composants électroniques *(cf. **Schéma_de_montage.pdf**)*
+**4- Fils** : ils permettent de lier les différents composants électroniques *(cf. **Schéma_de_montage.pdf**)*
 
-**5- Deux batteries** : elle permettent d'alimenter les deux cartes UCA (celle de la télécommande et celle dans le socle).
+**5- Deux batteries** : elles permettent d'alimenter les deux cartes UCA (celle de la télécommande et celle dans le socle).
 
 ### 🖥️ Programmation
 
