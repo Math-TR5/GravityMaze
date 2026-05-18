@@ -24,65 +24,49 @@ Afin de donner une direction claire à notre démarche, nous avons défini les o
 
 
 ##  🔧 Matériel et fonctions
-Pour créer ce jeu, nous avons utilisé du matériel prêté par l'**Université Nice Côte d'Azur**, mais également réalisé plusieurs pièces.
+Pour créer ce jeu, nous avons réalisé plutieurs et utilisé du matériel prêté par l'**Université Nice Côte d'Azur**.
 
 ### ⚙️ Structure
-La structure de notre jeu se divise en **quatre parties** *(numérotées sur le schéma ci-contre)* :
+Voici la liste des pièces que nous avons réalisé pour la structure de notre jeu *(cf. **Illustration_structure_du_jeu.pdf**)*
 
-**1. Le socle :**
-Cette première partie de la structure du jeu est constituée d'une seule pièce, que nous avons réalisé en carton et recouvert de papier. Elle permet de tenir le pied et le labyrinthe, tout en camouflant les composants électroniques.
+**1. Le socle :** il est constituée d'une seule pièce, que nous avons réalisé en utilisant la méthode de la découpe laser. Il permet de tenir et surélever le pied et le plateau, tout en camouflant les composants électroniques.
 
-*(photo du socle terminé)*
 
-**2. Le pieds articulé :**
-Cette deuxième partie de la structure du jeu est composé de trois pièces que nous avons modélisé et imprimé en 3D. Elles permettent de combiner les mouvements des deux servomoteurs. 
+**2. Le pieds articulé :** il est composé de trois pièces que nous avons modélisé, grâce au logiciel *Fusion360*, et imprimé en 3D. Elles permettent de combiner les mouvements des deux servomoteurs. 
 
-*(photos modélisations des pièces et du pied complet)*
 
-**3. Le Labyrinthe :**
-Cette troisième partie de la structure du jeu est constituée d'un seule pièce. Nous avons utlisé le logiciel *Fusion360* afin de modéliser en 3D cette pièce, que nous avons par la suite imprimé en 3D.
+**3. Le plateau :** il est constituée d'un seule pièce. Nous avons utlisé le logiciel *Fusion360* afin de modéliser en 3D cette pièce, que nous avons par la suite imprimé en 3D.
 
-*(photo des modélisation + de la pièce imprimée)*
 
-**4. La télécommande :**
-Cette quatrième et dernière pièce de la structure du jeu est constituée d'une seule pièce en carton, recouverte d'un papier. Cette pièce abrite l'accéléromètre qui va permettre de contôler l'inclinaison du labyrinthe à distance : elle n'est donc pas reliée aux autres pièces de la structure du jeu.
+**4. La télécommande :** cette quatrième et dernière pièce de la structure du jeu est constituée d'une seule pièce. Nous avons modélisé et imprimé en 3D les parois et utilisé la découpe laser pour le fond et le couvercle coulissant. La télécommande permet d'abriter l'accéléromètre qui va contrôler l'inclinaison du labyrinthe à distance : elle n'est donc pas reliée aux autres pièces de la structure du jeu.
 
-*(schéma et photo)*
 
 ### 🔌 Composants électroniques
-Voici la liste des composants électroniques qui ont été nécessaires à la réalisation de ce projet:
+Voici la liste des composants électroniques, prêtés par l'**Université Nice Côte d'Azur**, qui ont été nécessaires à la réalisation de ce projet.
 
-**1. Deux servomoteurs**
-Situés dans le pied du labyrinthe, ils permettent d'incliner le plateau et ainsi faire bouger la bille. L'un permet de contrôler l'inclinaison selon l'axe Ox *(cf. **Figure 1.a**)* et l'autre selon l'axe Oy *(cf. **Figure 1.b**)*
-
-*(schémas de contrôle des inclinaisons des servomoteurs + photo)*
-
-**2- Un accéléromètre**
+**1. Deux servomoteurs**: situés dans le pied du labyrinthe, ils permettent d'incliner le plateau et ainsi faire bouger la bille. L'un permet de contrôler l'inclinaison selon l'axe Ox et l'autre selon l'axe Oy *(cf. **contrôle_des_axes_servomoteurs.pdf**)*.
 
 
+**2- Un accéléromètre**: composant principal de la télécommande, il va permettre de contrôler le labyrinthe à distance e receuillant des données concernant l'inclinaison des deux axes définis précédemment.
 
-**3- Une carte UCA**
+
+**3- Deux cartes UCA**: 
+
+- la première est située dans la télécommande et contient l'accéléromètre. Elle sert d'émetteur afin de transmettre les informations récupérées par l'accéléromètre.
+- la deuxième est située dans le socle. Elle sert de récepteur afin de traduire, pour les servomoteurs, les données reçus concernant l'inclinaison des deux axes 
 
 
-**4- X fils**
-Ils permettent de lier les différents composants électroniques selon le schéma de montage suivant :
+**4- X fils** : ils permettent de lier les différents composants électroniques *(cf. **Schéma_de_montage.pdf**)*
 
-*(schéma de montage)*
-
-**5- Deux batteries**
+**5- Deux batteries** : elle permettent d'alimenter les deux cartes UCA (celle de la télécommande et celle dans le socle).
 
 ### 🖥️ Programmation
 
+*(à compléter!!!!!!!)*
 
 ## 🗓️ Planning
-La réalisation des différentes tâches constituant notre projet est résumée dans le dirgamme de Gantt ci-dessous :
+La réalisation des différentes tâches constituant notre projet est résumée dans le fichier **diagramme_de_Gantt.pdf**.
 
-*(digramme de Gantt)*
-
-## 📁 Annexes
-- premier croquis du projet
-- premier prototype
-- 
 
 ## 📚 Conclusion
 Ce projet nous a permis d’explorer de manière concrète et progressive les principes fondamentaux de la communication sans fil, en les traduisant sous la forme d’un jeu interactif pensé pour des apprenants débutants. La conception de ce dispositif ludique nous a amenées à comprendre les mécanismes essentiels d’une transmission radio tout en réfléchissant à la manière de les rendre accessibles, visuels et motivants. Au‑delà de l’aspect technique, ce travail nous a également offert l’occasion de mobiliser une démarche pédagogique cohérente avec notre formation PPPE (Parcours Préparatoire au Professorat des Écoles), en cherchant à allier rigueur scientifique et approche didactique. Le résultat final constitue ainsi une première proposition de médiation scientifique, capable de faciliter l’appropriation de notions complexes grâce à une expérience d’apprentissage engageante et intuitive.
